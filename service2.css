@@ -1,0 +1,128 @@
+#new-ser {
+    width: 96%;
+    /* height: 100px; */
+    /* max-height: 200px; */
+    /* background: green; */
+    display: block;
+    height: 1100px;
+    margin-bottom:50%; 
+    overflow-y:scroll !important;
+    /* inline-size: max-content; */
+    display: inline;
+}
+
+
+.new_cont {
+    display: flex;
+}
+
+h1 {
+    font-size: 33px;
+    font-weight: bold;
+    font-size: monospace;
+}
+
+
+.new-tb {
+    /* position: relative; */
+    font-style: monospace;
+    background-image: url(../../about-us-top.png);
+    height: 400px;
+    background-repeat:  no-repeat;
+    background-size: 100% auto;
+    font-size: 30px;
+    font-weight: 500px;
+
+}
+.new-box{
+position: absolute;
+ background: rgb(0, 0, 0);
+  background: rgba(62, 69, 102 , 0.5);
+color:#fff;
+bottom:250px;
+padding-left: 10px;
+left: 10px;
+width: 35%;
+height: 250px;
+font-size: 15px; 
+}
+header{
+color:black;
+margin: 20px;
+text-align: center;
+font-size:1.5em;
+font-weight: solid;
+font-style: monospace;
+font-weight: bold;
+}
+
+#new-navbar {
+    /* position: fixed; */
+    width: 40%;
+    top: 160%;
+    left: 0px;
+    height: 100% min-width:300px;
+    color: black;
+    background-color:#E8EAF3;
+    font-weight: bolder;
+    font-size: monospace;
+    /* height: 100px; */
+    /* float: left; */
+}
+
+
+html,
+body {
+	
+	font-style: inherit;
+	line-height: 2.0;
+	min-width: 300px;
+	color:black;
+	background-color:#E8EAF3;
+}
+
+#new-navbar li{
+	position: relative;
+	list-style: none;
+	border-top: 1px solid;
+	width: 100%;
+	color:black;
+	background-color:#E8EAF3; 
+
+}
+
+
+#new-navbar a:hover {background-color:#D3D5DC;}
+#new-navbar:hover {display: block;}
+#new-navbar ul{
+overflow-y: auto;
+overflow-x: hidden;
+height:50%;
+padding	:10px;
+}
+#new-ser header{
+	text-align: left;
+	margin: 10px;
+}
+#new-navbar a {
+	display: block;
+	color: black;
+	cursor: pointer;
+	padding:10px 10px;
+	text-decoration: none; 
+}
+section {
+	margin: 20px;
+	font-size: 1em;
+
+}
+section li{
+	margin: 15px 0px 0px 20px;
+}
+@media only screen and(max-width: 650px){
+	#new-navbar ul{
+		border: 1px solid;
+		height: 200px;
+	}
+}
+
