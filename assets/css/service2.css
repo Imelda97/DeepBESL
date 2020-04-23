@@ -19,40 +19,40 @@
 }
 
 h1 {
-    font-size: 33px;
+    font-size: 40px;
     font-weight: bold;
     font-style: monospace;
 }
 
 
 .new-tb {
-    /* position: relative; */
+     position: relative;
     font-style: monospace;
-    background-image: url('../../about-us-top.png');
-    height: 400px;
+    background-image:url('../../about-us-top.png');
+    min-height: 400px;
     background-repeat:  no-repeat;
     background-size: 100% auto;
     font-size: 30px;
     font-weight: 500px;
     margin-top:10%;
-    width: 100%;
+    width: 1600px;
    
 
 }
-.new-tb1 {
+/*.new-tb1 {
      position: relative;
     font-style: monospace;
     background-image: url('../../about-us-top.png');
-    height: 400px;
+    min-height: 400px;
     background-repeat:  no-repeat;
     background-size: 100% auto;
     font-size: 30px;
     font-weight: 500px;
     margin-top:10%;
-    width: 100%;
+    max-width: 100%;
    
 
-}
+}*/
 /*CONTACT US */
 
 .new-tb3 {
@@ -99,7 +99,7 @@ height:40%;
 .new-box1 {
     position: absolute;
     background: rgba(62, 69, 102 , 0.5);
-    margin-top:10%;
+    margin-top:15%;
     padding-left:10px;
     left: 0px;
     width:30%;
@@ -111,14 +111,18 @@ height:40%;
 
 .new-box h1{
     color:#fff;
-    font-size: 24px; 
+    font-size: 30px; 
     padding-left: 30px;
 }
 
 .new-box1 h1 {
     color:#fff;
-    font-size: 60px; 
-    text-align: center;
+    font-size: 30px; 
+    margin-top:10%;
+    
+    padding-right:10%;
+    padding-left: 12%;
+    padding-bottom: 5%;
 }
 
 #new-navbar {
