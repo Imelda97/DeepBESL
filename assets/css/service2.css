@@ -28,7 +28,7 @@ h1 {
 .new-tb {
      position: relative;
     font-style: monospace;
-    background-image:url('../../about-us-top.png');
+    /*background-image:url('../../about-us-top.png');*/
     min-height: 400px;
     background-repeat:  no-repeat;
     background-size: 100% auto;
@@ -39,23 +39,86 @@ h1 {
    
 
 }
-/*.new-tb1 {
+.new-tb1 {
      position: relative;
     font-style: monospace;
-    background-image: url('../../about-us-top.png');
-    min-height: 400px;
+    /*background-image: url('../../about-us-top.png');*/
+    height: 400px;
     background-repeat:  no-repeat;
     background-size: 100% auto;
     font-size: 30px;
     font-weight: 500px;
     margin-top:10%;
-    max-width: 100%;
+    width: 100%;
    
 
-}*/
-/*CONTACT US */
+}
 
-.new-tb3 {
+.snw{
+width:100%;
+height:40%;
+ margin-top: 40px;
+}
+.snw{
+width:100%;
+height:40%;
+ margin-top: 40px;
+}
+/*services*/
+.new-box {
+    position: absolute;
+    background: rgba(62, 69, 102 , 0.5);
+    color:#fff;
+    padding-left:10px;
+    left: 0px;
+    width: 35%;
+    height: 200px;
+    font-size: 15px; 
+    margin:12px 1px 5px 10px;
+    bottom: 12%;
+    
+}
+.new-box h1 {
+    color:#fff;
+    font-size: 30px; 
+    margin-top:10%;
+     padding-right:10%;
+    padding-left: 12%;
+    padding-bottom: 5%;
+}
+/*about us*/
+.new-box1 {
+     position: absolute;
+    background: rgba(62, 69, 102 , 0.5);
+    padding-left:10px;
+    left: 0px;
+    width:30%;
+    height:100px;
+   margin:0px 1px 950px 2px;
+    bottom:50%;
+
+}
+.new-box1 h1 {
+    color:#fff;
+    font-size: 30px; 
+    margin-top:10%;
+     padding-right:10%;
+    padding-left: 12%;
+    padding-bottom: 5%;
+}
+/*management team*/
+.new-box2 {
+    position: absolute;
+    background: rgba(62, 69, 102 , 0.5);
+    padding-left:10px;
+    left: 0px;
+    width:30%;
+    height:100px;
+    margin-left:100px;
+    bottom:50%;
+
+    }
+    /*.new-tb2 {
      position: relative; 
     font-style: monospace;
     background-image: url('../../about-us-top.png');
@@ -65,7 +128,26 @@ h1 {
     font-size: 30px;
     font-weight: 500px;
 
+}*/
+.new-box2 h1 {
+    color:#fff;
+    font-size: 40px; 
+    text-align: center;
 }
+
+/*CONTACT US */
+
+/*.new-tb3 {
+     position: relative; 
+    font-style: monospace;
+    background-image: url('../../about-us-top.png');
+    height: 400px;
+    background-repeat:  no-repeat;
+    background-size: 100% auto;
+    font-size: 30px;
+    font-weight: 500px;
+
+}*/
 .new-box3{
 position: absolute;
  background: rgb(0, 0, 0);
@@ -79,52 +161,6 @@ height: 90px;
 font-size: 15px; 
 }
 /*--------------------------- end*/
-.snw{
-width:100%;
-height:40%;
- margin-top: 40px;
-}
-.new-box {
-    position: absolute;
-    background: rgba(62, 69, 102 , 0.5);
-    color:#fff;
-    padding-left:10px;
-    left: 0px;
-    width: 35%;
-    height: 200px;
-    font-size: 15px; 
-    margin-top:10%;
-    margin-left:100px;
-}
-.new-box1 {
-    position: absolute;
-    background: rgba(62, 69, 102 , 0.5);
-    margin-top:15%;
-    padding-left:10px;
-    left: 0px;
-    width:30%;
-    height:100px;
-    margin-left:100px;
-
-    }
-
-
-.new-box h1{
-    color:#fff;
-    font-size: 30px; 
-    padding-left: 30px;
-}
-
-.new-box1 h1 {
-    color:#fff;
-    font-size: 30px; 
-    margin-top:10%;
-    
-    padding-right:10%;
-    padding-left: 12%;
-    padding-bottom: 5%;
-}
-
 #new-navbar {
     /* position: fixed; */
     width: 250%;
@@ -227,30 +263,4 @@ padding :10px;
     font-style: bold;
     font-size:20px;
 }
-.new-box2 {
-    position: absolute;
-    background: rgba(62, 69, 102 , 0.5);
-    margin-top:15%;
-    padding-left:10px;
-    left: 0px;
-    width:30%;
-    height:100px;
-    margin-left:100px;
 
-    }
-    .new-tb2 {
-     position: relative; 
-    font-style: monospace;
-    background-image: url('../../about-us-top.png');
-    height: 400px;
-    background-repeat:  no-repeat;
-    background-size: 100% auto;
-    font-size: 30px;
-    font-weight: 500px;
-
-}
-.new-box2 h1 {
-    color:#fff;
-    font-size: 40px; 
-    text-align: center;
-}
