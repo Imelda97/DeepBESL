@@ -1741,7 +1741,7 @@ blockquote cite {
 
 .b-bnr__title {
   margin-bottom: 13px;
-  font: 600 36px/1 Poppins;
+  font: 600 36px/1 lora;
   letter-spacing: .025em;
 }
 
@@ -1754,7 +1754,7 @@ blockquote cite {
 .b-bnr-2 {
   margin-top: 27px;
   padding: 17px 20px 15px;
-  font-family: Poppins;
+  font-family: lora;
   color: white;
   border-bottom-width: 3px;
   border-bottom-style: solid;
@@ -1793,7 +1793,7 @@ blockquote cite {
 .b-bnr-3 {
   margin-bottom: 70px;
   padding: 58px 0 70px;
-  font-family: Poppins;
+  font-family: lora;
   text-align: center;
   color: #fff;
   border-radius: 2px;
@@ -1881,7 +1881,7 @@ blockquote cite {
 
 .b-blockquote-1 blockquote {
   padding: 70px 80px 30px 0;
-  font-size: 25px;
+  font-size: 30px;
   font-style: monospace;
 }
 
@@ -1894,7 +1894,7 @@ blockquote cite {
 
 .b-blockquote-1 .b-blockquote__author {
   display: block;
-  font: 600 16px Poppins;
+  font: 600 16px lora;
   letter-spacing: .02em;
   color: #0C1B65;
   font-family: monospace;
@@ -1934,7 +1934,7 @@ blockquote cite {
   left: 10px;
   width: 60px;
   height: 50px;
-  font: 130px/1 Poppins;
+  font: 130px/1 lora;
   content: '“';
 }
 
@@ -1955,7 +1955,7 @@ blockquote cite {
 .b-blockquote-2 .b-blockquote__author {
   display: block;
   margin-top: 32px;
-  font: 600 16px/1 Poppins;
+  font: 600 16px/1 lora;
   letter-spacing: .02em;
   color: #222;
 }
@@ -1972,7 +1972,7 @@ blockquote cite {
 .b-blockquote-2 .b-blockquote__category {
   display: block;
   margin-bottom: 16px;
-  font: 500 12px Poppins;
+  font: 500 12px lora;
   color: #888;
 }
 
@@ -2053,7 +2053,7 @@ blockquote cite {
 
 .b-blockquote-3 .b-blockquote__category {
   display: block;
-  font: 500 12px Poppins;
+  font: 500 12px lora;
   color: #888;
 }
 
@@ -3529,13 +3529,13 @@ blockquote cite {
 .main-slider-1 .main-slider__title {
   position: relative;
   margin-top: -110px;
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 700;
   line-height: 1;
   letter-spacing: .03em;
-  text-transform: uppercase;
   color: #fff;
   text-shadow: 0.5px 0.9px 5px rgba(0, 0, 0, 0.05);
+  font-family: lora;
 }
 
 .main-slider-1 .main-slider__subtitle {
@@ -3543,16 +3543,15 @@ blockquote cite {
   font-size: 60px;
   font-weight: 300;
   line-height: 1;
-  text-transform: uppercase;
 }
 
 .main-slider-1 .main-slider__btn {
-  margin-right: 13px;
+  margin-right: 15px;
   margin-bottom: 20px;
 }
 
 .main-slider-1 .main-slider__btn-label {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 400;
   text-transform: none;
 }
@@ -5100,32 +5099,26 @@ blockquote cite {
   height: 100%;
 }
 
-.new-tb1 {
-  background: url("../media/components/b-title-page/about-us-top.png");
-  width: 100%;
+.section-title-page {
   position: relative;
-  font-style: monospace;
-  min-height: 400px;
-  background-repeat:  no-repeat;
-  background-size: 100% auto;
-  font-size: 30px;
-  font-weight: 500px;
-  margin-top:10%;
-  max-width: 100%;
-}
-
-.new-tb1 {
-  margin-top: 65px;
-  margin-bottom: 4px;
-  font-size: 38px;
-  font-weight: 700;
-  text-align:left;
-  text-transform: uppercase;
+  height: 300px;
+  margin-top: 166px;
+  background: url("../media/components/b-title-page/about-us-top.png");
   color: #fff;
-  
+
 }
 
-.new-tb1:after {
+.b-title-page {
+  margin-top:100px;
+  margin-bottom: 4px;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  font-family: lora;
+  color: #fff;
+}
+
+.b-title-page:after {
   display: block;
   width: 50px;
   height: 3px;
@@ -5133,11 +5126,11 @@ blockquote cite {
   content: '';
 }
 
-.new-tb1__info {
+.b-title-page__info {
   color: #fff;
 }
 
-.new-tb1__subtitle {
+.b-title-page__subtitle {
   text-transform: none;
 }
 

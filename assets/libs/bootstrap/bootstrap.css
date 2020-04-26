@@ -694,7 +694,7 @@ blockquote .small:before {
 }
 blockquote p {
   margin-bottom: 10px;
-  font-weight:inherit;
+  font-weight: 400;
 }
 .blockquote-reverse,
 blockquote.pull-right {
