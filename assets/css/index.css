@@ -13,6 +13,7 @@
 }
 
 
+
 .section-title__inner {
   position: absolute;
   top: 0;
@@ -281,3 +282,4 @@ ul.demopage-help_list li a:hover {
     padding: 81px 0 0;
   }
 }
+

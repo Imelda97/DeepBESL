@@ -607,9 +607,10 @@ body:not(.header-demo) .navbar-scrolling .btn {
     font-size: 14px;
     color: #FFF;
 
-    border-radius: 8px;
+    border-radius: 7px;
     font-family: lora;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin:10px;
 }
 
 .toggle-menu-button.is-open .toggle-menu-button-icon span:nth-child(1),
