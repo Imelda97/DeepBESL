@@ -180,9 +180,11 @@ footer{
 .image{
     clear: both;
     width: 400px;
-    height: 300px;
+    height: auto;
     float: right;
 }
+
+
 /*GRID.CSS*/
 
 /*  SECTIONS  ============================================================================= */
@@ -873,4 +875,20 @@ footer{
     .span-1-of-12 {
         width: 100%; 
     }
+}
+
+@media(max-width: 750px) {
+    .image {
+        height: auto;
+       padding-left: 30px;
+       padding-bottom: 20px;
+    }
+
+}
+
+@media(max-width: 750px) {
+    .pnew1 {
+    padding: 20px;
+
+        }
 }

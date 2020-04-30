@@ -1175,7 +1175,7 @@ html [data-off-canvas*=open] {
     width: 100%;
     margin: 0;
     text-align: left;
-    text-transform: uppercase;
+    
 }
 
 [data-off-canvas] li a {
@@ -1188,7 +1188,7 @@ html [data-off-canvas*=open] {
 }
 
 [data-off-canvas] li:hover a {
-    color: #088cdc;
+    color:#b9c1c7;
 }
 
 
