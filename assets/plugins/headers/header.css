@@ -1015,6 +1015,23 @@ summary {
     content: '';
 }
 
+/*management*/
+
+
+[data-canvas=container1] {
+    width: 130%;
+    height: 100%;
+    background-color: white;
+    /* Basic background color, overwrite this in your own css. */
+    -webkit-overflow-scrolling: touch;
+    /* Enables momentum scrolling on iOS devices, may be removed by setting to 'auto' in your own CSS. */
+}
+
+
+
+
+
+
 
 /** Off-Canavs **/
 
@@ -1334,7 +1351,7 @@ html [data-off-canvas*=open] {
     }
     html .menu-mobile-button {
         top: 26px;
-        display: block !important;
+        right:200px;
     }
 }
 

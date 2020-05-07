@@ -999,7 +999,7 @@ blockquote cite {
 .owl-theme .owl-dots {
   position: absolute;
   right: 0;
-  bottom: 0;
+  bottom: 150px;
   width: 100%;
   text-align: center;
 }
@@ -1830,7 +1830,7 @@ blockquote cite {
 }
 
 .section-reviews {
-  margin-bottom: 175px;
+  margin-bottom: 150px;
   padding-top: 120px;
   background-size: cover;
 }
@@ -1860,12 +1860,13 @@ blockquote cite {
 .b-blockquote-1 {
   position: relative;
   margin: 30px 30px;
-  padding:50px;
+  padding:70px;
   border-left: none;
-  background-color:#fff;
-  color:#0C1B65;
+  background-color:#002C5F;
+  color:#fff;
   width: 95%;
   height:auto;
+  font-weight: 300;
 
  
 }
@@ -1896,7 +1897,7 @@ blockquote cite {
   display: block;
   font: 600 16px lora;
   letter-spacing: .02em;
-  color: #0C1B65;
+  color: #fff;
   font-family: monospace;
   font-size: 20px;
 }
@@ -1913,9 +1914,9 @@ blockquote cite {
 .b-blockquote-1 .b-blockquote__category {
   display: block;
   margin-bottom: 5px;
-  color:#0C1B65;
+  color:#fff;
   font-size: 20px;
-  font-family: monospace;
+  font-family: lora;
   font-style: oblique;
 }
 
@@ -1942,7 +1943,7 @@ blockquote cite {
   padding: 15px 20px 20px 0;
   font: 500 16px/1.5 Hind;
   letter-spacing: .01em;
-  color: #444;
+  color: #fff;
 }
 
 .b-blockquote-2 .b-blockquote__img {
@@ -5107,6 +5108,10 @@ blockquote cite {
   background: url("../media/components/b-title-page/about-us-top.png");
   color: #fff;
 
+}
+.contact {
+
+   margin-top: 0px !important;
 }
 
 .b-title-page {
